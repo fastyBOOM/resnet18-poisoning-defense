@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Датасеты и тяжелые веса моделей
+data/
+*.pth
+*.pt
+*.pkl
+
+# Служебные файлы сборки LaTeX (папка paper)
+*.aux
+*.log
+*.toc
+*.synctex.gz
+*.pdf
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
